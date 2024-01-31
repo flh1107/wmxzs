@@ -1,3 +1,4 @@
+根据外贸小助手语料，对internlm2-chat-7b进行模型微调  
 1、通过xlsx2jsonl等python脚本将xlsx样本集转化成jsonl文件  
 2、运行generate_data.py，将每个对话重复生成100遍，用于语料训练  
 3、使用internlm2-chat-7b进行微调训练  
